@@ -1,0 +1,9 @@
+﻿@model IEnumerable<Partical.Models.Student>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+@Html.Partial("ParticalView")
+@Html.Partial("ParticalView1",Model)
+
