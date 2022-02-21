@@ -11,12 +11,12 @@ namespace Partical.Controllers
     {
         public IActionResult Index()
         {
-            List<Student> std=new List<Student>(){
-            new Student{ sid=1,sname="Yamik",degree="MCA"},
-            new Student{ sid=2,sname="Kavi",degree="Bca"},
-            new Student{ sid=3,sname="Raj",degree="BBA"},
-            new Student{ sid=4,sname="Mahesh",degree="BCOM"},
-            new Student{ sid=5,sname="Rajesh",degree="MCOM"},
+            List<Employee> std=new List<Employee>(){
+            new Employee{ sid=1,sname="Yamik",degree="MCA"},
+            new Employee{ sid=2,sname="Kavi",degree="Bca"},
+            new Employee{ sid=3,sname="Raj",degree="BBA"},
+            new Employee{ sid=4,sname="Mahesh",degree="BCOM"},
+            new Employee{ sid=5,sname="Rajesh",degree="MCOM"},
             };
             return View(std);
         }
